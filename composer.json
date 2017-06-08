@@ -1,0 +1,13 @@
+{
+    "name": "widerplan/kohana-database",
+    "description": "Fork of Kohana Pagination",
+    "license": "BSD-3-Clause",
+    "replace": {
+        "kohana/pagination": "3.2.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "3.2.x": "3.2.x-dev"
+        }
+    }
+}
