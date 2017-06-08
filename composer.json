@@ -1,5 +1,5 @@
 {
-    "name": "widerplan/kohana-database",
+    "name": "widerplan/kohana-pagination",
     "description": "Fork of Kohana Pagination",
     "license": "BSD-3-Clause",
     "replace": {
