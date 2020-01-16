@@ -290,4 +290,16 @@ class Kohana_Pagination {
 		$this->setup(array($key => $value));
 	}
 
+	/**
+	 * Test if a property is set
+	 *
+	 * @param string $property
+	 *
+	 * @return boolean
+	 */
+	public function __isset($property)
+	{
+		return isset($this->$property);
+	}
+
 } // End Pagination
